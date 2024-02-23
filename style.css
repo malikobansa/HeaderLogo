@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    background-color: slategray;
+    color: #fff;
+    margin-top: 20px;
+}
+
+main{
+    background-color: slategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.place{
+     background-color: gray;
+     width: 500px;
+     height: 300px;
+}
+
+.place h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    color: #fff;
+}
+
+.grid{
+    padding-top: 70px;
+    margin-top: 100px;
+    width: 500px;
+    height: 400px;
+    color: #fff;
+}
+
+.angle{
+    width: 100px;
+    height: 100px;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+.rect{
+    display: flex;
+    margin-left: 200px;
+}
+
+.angle{
+    margin-left: 100px;
+}
+
+section h3{
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-bottom: 100px;
+}
+
+.rect h1{
+    font-size: 20px;
+    width: 150px;
+    margin-left: 55px;
+}
+
+.rects{
+    margin-left: 250px;
+}
+
+.flex{
+    background-color: slategray;
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.flex p{
+    font-size: 50px;
+}
+
+.p{
+    margin-left: 550px;
+}
+
+.call{
+    display: flex;
+    border-radius: 10px;
+}
+
+.cta{
+    padding: 200px;
+
+}
+
+.call{
+    background-color: blue;
+    color: #fff;
+    font-size: 20px;
+    height: 100px;
+    padding: 20px;
+}
+
+.act{
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 30px;
+}
+
+.btns{
+    margin-left: 100px;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    border:  2px #fff solid;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.para{
+    color: whitesmoke;
+}
+
+footer{
+    background-color: gray;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+}
